@@ -3,14 +3,15 @@ import matplotlib.pyplot as plt
 category_names = ['RLK', 'RLP',
                   'CNL', 'TNL', 'NBS']
 results = {
-    'Chromosome 1': [10, 15, 17, 30, 26],
-    'Chromosome 2': [26, 12, 29, 10, 13],
-    'Chromosome 3': [25, 27, 7, 12, 19],
-    'Chromosome 4': [22, 11, 19, 10, 23],
-    'Chromosome 5': [21, 19, 5, 5, 40],
-    'Chromosome 6': [8, 19, 5, 20, 28],
-    'Chromosome 7': [18, 10, 24, 10, 28],
-    'Chromosome 8': [11, 17, 25, 20, 22]
+    'Chr C01': [10, 15, 17, 30, 2],
+    'Chr C02': [26, 12, 29, 10, 13],
+    'Chr C03': [25, 27, 7, 12, 19],
+    'Chr  C04': [22, 11, 19, 10, 23],
+    'Chr  C05': [21, 19, 5, 5, 40],
+    'Chr  C06': [8, 19, 5, 20, 28],
+    'Chr  C07': [18, 10, 24, 10, 28],
+    'Chr  C08': [11, 17, 25, 20, 22],
+    'Chr  C09': [11, 17, 25, 20, 22]
 }
 def survey(results, category_names):
     """
